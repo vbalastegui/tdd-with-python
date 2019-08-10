@@ -7,7 +7,7 @@ browser = webdriver.Firefox()
 browser.get('http://localhost:8000')
 
 # She notices the page title and header metion to-do lists
-assert 'Django' in browser.title
+assert 'To-Do' in browser.title
 
 # She is invited to enter a to-do item straight away
 
@@ -21,3 +21,13 @@ assert 'Django' in browser.title
 # enters "Use peacock feathers to make a fly" (Edith is very methodical)
 
 # The page updates again, and now shows both items on her list
+
+# Edith wonders whether the site will remember her list. Then she sees
+# that the site has generated a u unique URL for her -- there is some
+# explanatory text to that effect.
+
+# She visits that URL - her to-do list is still there.
+
+# Satisfied, she goes back to sleep
+
+browser.quit()
