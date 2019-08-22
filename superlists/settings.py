@@ -25,7 +25,7 @@ SECRET_KEY = 't#$c!%fxlh=zc@6e9kn^m!#zw_2%8b6apy*dn+y9x^h%1lfazi'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['superlists-staging']
 
 
 # Application definition
